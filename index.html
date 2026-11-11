@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Plan de escalada</title>
+  <meta name="theme-color" content="#1d4f37">
+  <meta name="description" content="Plan de entrenamiento de escalada deportiva: 12 semanas y tests.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Escalada">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d4f37'/%3E%3Cpath d='M6 25 L12 17 L16 20 L22 9 L26 13' fill='none' stroke='%23f2f5f1' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <svg width="0" height="0" class="sprite" aria-hidden="true">
+    <symbol id="i-up" viewBox="0 0 16 16"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-down" viewBox="0 0 16 16"><path d="M8 3v10M3.5 8.5 8 13l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-eq" viewBox="0 0 16 16"><path d="M3.5 6h9M3.5 10h9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 16 16"><path d="m3.5 8.5 3 3 6-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-play" viewBox="0 0 16 16"><path d="M5 3.5v9l7.5-4.5z" fill="currentColor"/></symbol>
+    <symbol id="i-print" viewBox="0 0 16 16"><path d="M4.5 6V2.5h7V6M4.5 11.5h-2v-5h11v5h-2M4.5 9.5h7v4h-7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 16 16"><path d="M10 3.5 5.5 8l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-next" viewBox="0 0 16 16"><path d="M6 3.5 10.5 8 6 12.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 16 16"><path d="M10.5 3 13 5.5 6 12.5 3 13l.5-3zM9 4.5 11.5 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 16 16"><path d="M8 3v10M3 8h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-x" viewBox="0 0 16 16"><path d="m4 4 8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 16 16"><path d="M3 4.5h10M6.5 4.5V3h3v1.5M4.5 4.5l.6 8.5h5.8l.6-8.5M7 7v3.5M9 7v3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 16 16"><path d="M2.5 4.5h4M9.5 4.5h4M2.5 11.5h7M12.5 11.5h1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="8" cy="4.5" r="1.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="11" cy="11.5" r="1.6" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-download" viewBox="0 0 16 16"><path d="M8 2.5v8M4.5 7 8 10.5 11.5 7M3 13.5h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 16 16"><path d="M8 10.5v-8M4.5 6 8 2.5 11.5 6M3 13.5h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 16 16"><rect x="4.5" y="1.5" width="7" height="13" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7 12.2h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-sync" viewBox="0 0 16 16"><path d="M13 6.5A5 5 0 0 0 3.7 5M3 9.5A5 5 0 0 0 12.3 11M3.5 2.5V5.2h2.7M12.5 13.5v-2.7H9.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-dot" viewBox="0 0 16 16"><circle cx="8" cy="8" r="2.5" fill="currentColor"/></symbol>
+    <symbol id="i-week" viewBox="0 0 20 20"><rect x="2.5" y="4" width="15" height="13.5" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 8.5h15M6.5 2.5v3M13.5 2.5v3M6 12h2M9 12h2M12 12h2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 20 20"><path d="M3 16.5h14M5.5 13.5v-3M10 13.5v-7M14.5 13.5V4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  </svg>
+
+  <header class="bar">
+    <div class="bar__inner">
+      <div class="bar__title">
+        <h1>Plan de escalada</h1>
+        <p class="bar__now" id="bar-now"></p>
+      </div>
+      <nav class="tabs-main" aria-label="Secciones">
+        <button class="tab-main" type="button" data-view="entreno" aria-current="page"><svg aria-hidden="true"><use href="#i-week"/></svg><span>Entreno</span></button>
+        <button class="tab-main" type="button" data-view="tests"><svg aria-hidden="true"><use href="#i-chart"/></svg><span>Tests</span></button>
+      </nav>
+      <button class="icon-btn icon-btn--bar" type="button" data-act="settings" aria-label="Ajustes y copia de seguridad"><svg aria-hidden="true"><use href="#i-gear"/></svg></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap"><div class="notice" id="notice-sync" role="status" hidden></div></div>
+    <!-- ENTRENO -->
+    <section class="view" id="view-entreno" aria-labelledby="h-temporada">
+      <div class="wrap">
+        <div class="notice" id="notice-plan" role="status" hidden></div>
+        <div class="season">
+          <div class="season__head">
+            <h2 id="h-temporada">Las 12 semanas</h2>
+            <ul class="legend" aria-label="Leyenda">
+              <li><span class="legend__dot legend__dot--rest"></span>Descarga</li>
+              <li><span class="legend__dot legend__dot--load"></span>Carga</li>
+            </ul>
+          </div>
+          <div class="topo" id="topo">
+            <svg class="topo__rope" viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true"><path id="rope" d=""/></svg>
+            <div class="topo__weeks" id="weeks" role="listbox" aria-label="Elige semana"></div>
+          </div>
+          <div class="mesos" id="mesos"></div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div class="week" id="week">
+          <div class="week__head">
+            <div class="week__title">
+              <button class="icon-btn" type="button" id="prev-week" aria-label="Semana anterior"><svg><use href="#i-prev"/></svg></button>
+              <div>
+                <h2 id="week-name"></h2>
+                <p class="week__meta" id="week-meta"></p>
+              </div>
+              <button class="icon-btn" type="button" id="next-week" aria-label="Semana siguiente"><svg><use href="#i-next"/></svg></button>
+            </div>
+            <div class="week__side">
+              <p class="week__progress" id="week-progress"></p>
+              <button class="btn" type="button" id="edit-plan" aria-pressed="false"><svg><use href="#i-edit"/></svg>Editar plan</button>
+              <button class="btn btn--print" type="button" id="print-week"><svg><use href="#i-print"/></svg>Imprimir semana</button>
+            </div>
+          </div>
+          <p class="week__goal" id="week-goal"></p>
+          <div class="edit-bar" id="edit-bar" hidden></div>
+
+          <div class="days">
+            <div class="days__tabs" role="tablist" aria-label="Días" id="day-tabs"></div>
+            <div class="days__panels" id="day-panels"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTS -->
+    <section class="view" id="view-tests" aria-labelledby="h-tests" hidden>
+      <div class="wrap">
+        <div class="notice" id="notice-tests" role="status" hidden></div>
+        <div class="tests-head">
+          <div>
+            <h2 id="h-tests">Evolución en tests</h2>
+            <p class="tests-head__dates" id="tests-dates"></p>
+          </div>
+          <p class="tests-head__sum" id="tests-sum"></p>
+        </div>
+        <div class="tests-acts">
+          <button class="btn btn--primary" type="button" data-act="new-round"><svg><use href="#i-plus"/></svg>Nueva tanda de tests</button>
+          <button class="btn" type="button" data-act="athlete"><svg><use href="#i-edit"/></svg>Tus datos</button>
+        </div>
+        <dl class="athlete" id="athlete"></dl>
+        <p class="note">Toca un test para apuntar el resultado. Se guarda en este dispositivo.</p>
+        <div id="test-groups"></div>
+        <button class="add-btn add-btn--group" type="button" data-act="add-group"><svg><use href="#i-plus"/></svg>Añadir grupo de tests</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
+    <form id="sheet-form" novalidate></form>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="plan-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
